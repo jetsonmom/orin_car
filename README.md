@@ -1,7 +1,7 @@
 # orin_car
-orin, motor drive hat, pca9685로 구성
-dcmotor.py코드 실행시 에러
-***
+#orin, motor drive hat, pca9685로 구성
+#dcmotor.py코드 실행시 에러
+```
 orin@orin-desktop:~$ python3 dcmotor.py
 Traceback (most recent call last):
   File "/home/orin/dcmotor.py", line 4, in <module>
@@ -17,7 +17,7 @@ Traceback (most recent call last):
   File "/home/orin/.local/lib/python3.10/site-packages/Adafruit_GPIO/I2C.py", line 55, in get_default_bus
     raise RuntimeError('Could not determine default I2C bus for platform.')
 RuntimeError: Could not determine default I2C bus for platform.
-***
+
 orin@orin-desktop:~$ i2cdetect -y -r 7
      0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f
 00:                         -- -- -- -- -- -- -- -- 
@@ -28,3 +28,4 @@ orin@orin-desktop:~$ i2cdetect -y -r 7
 50: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 60: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 70: 70 -- -- -- -- -- -- --                      
+```
