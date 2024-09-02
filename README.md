@@ -1,2 +1,2 @@
 # orin_car
-orin 
+orin, motor drive hat, pca9685로 구성
