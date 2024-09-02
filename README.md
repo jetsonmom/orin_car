@@ -1,7 +1,8 @@
 # orin_car
 #orin, motor drive hat, pca9685로 구성
-#dcmotor.py코드 실행시 에러
+#dcmotor.py코드 실행시 에러는 안나지만 자동차가 움직이지 않는다
 
+```
 orin@orin-desktop:~$ i2cdetect -y -r 7
      0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f
 00:                         -- -- -- -- -- -- -- -- 
