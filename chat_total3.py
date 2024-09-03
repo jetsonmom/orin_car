@@ -1,4 +1,5 @@
 #!/usr/bin/python
+# 오린 자동차를 움직이는 기본 코드
 import smbus as smbus
 import time
 from Adafruit_MotorHAT import Adafruit_MotorHAT, Adafruit_DCMotor
