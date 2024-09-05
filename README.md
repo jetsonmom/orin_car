@@ -8,6 +8,9 @@ pip install adafruit-circuitpython-servokit
 pip install Adafruit_PCA9685
 pip install Adafruit_MotorHAT
 pip install Jetson.GPIO
+sudo usermod -aG gpio orin
+
+
 ```
 
 dc_basic.py는 코드를 waveshare에서 가져와서 수정을 했다.
