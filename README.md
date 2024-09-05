@@ -1,8 +1,6 @@
 # orin_car
-```
-chat_total3.py는 작동이 잘 된다.
-```
 
+###chat_total3.py는 작동이 잘 된다.
 ### 시작전 lib설치
 ``` bash
 pip install smbus
