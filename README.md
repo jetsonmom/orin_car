@@ -1,13 +1,16 @@
 # orin_car
 ```
 chat_total3.py는 작동이 잘 된다.
-시작전 lib설치
+```
+
+### 시작전 lib설치
+``` bash
 pip install smbus
 pip install adafruit-circuitpython-servokit
 pip install Adafruit_PCA9685
 pip install Adafruit_MotorHAT
 pip install Jetson.GPIO
-
+```
 
 dc_basic.py는 코드를 waveshare에서 가져와서 수정을 했다.
 처음에 모터가 작동을 한 방향으로만해서 아두이노 때 h-bridge생각하고 수정을 해보았더니 잘 된다.
