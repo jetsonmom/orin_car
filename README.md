@@ -1,5 +1,8 @@
 # orin_car
-
+<b>  hangul install  https://ahnbk.dev/?p=368
+``` bash
+ sudo apt install fcitx5 fcitx5-hangul
+```
 ###chat_total3.py는 작동이 잘 된다.
 ### 시작전 lib설치
 ``` bash
