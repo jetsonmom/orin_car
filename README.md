@@ -1,10 +1,10 @@
 # orin_car
-<b>  hangul install  https://ahnbk.dev/?p=368
+<b> 1. hangul install  https://ahnbk.dev/?p=368
 ``` bash
  sudo apt install fcitx5 fcitx5-hangul
 ```
 ###chat_total3.py는 작동이 잘 된다.
-### 시작전 lib설치
+<b> 2. 시작전 lib설치
 ``` bash
 pip install smbus
 pip install adafruit-circuitpython-servokit
@@ -15,7 +15,7 @@ sudo usermod -aG gpio orin
 
 
 ```
-
+<b> 3. 
 dc_basic.py는 코드를 waveshare에서 가져와서 수정을 했다.
 처음에 모터가 작동을 한 방향으로만해서 아두이노 때 h-bridge생각하고 수정을 해보았더니 잘 된다.
 사실 dcmotor.py로 해야 서보조향이 자유롭게 될텐데  다시 수정을 해봐야겠다.
